@@ -38,11 +38,13 @@ span{
       padding:10px 0 10px 0;
 }
 /* nav title end */
-
-
+  
 
  /* mobile screen */
 @media screen and (max-width:600px) {
+    .title-link ul{
+        flex-direction: column;
+      }
     
 }
 @media screen and (min-width:600px) (max-width:992px){
