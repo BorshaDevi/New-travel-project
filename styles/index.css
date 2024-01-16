@@ -1,5 +1,12 @@
+/* nav title start */
 .container-nav{
-    
+    margin:0 auto;
+    width:100%;
+}
+.contant{
+    display: flex;
+    justify-content: space-between;
+   
 }
 .title-img{
     width:50px;
@@ -12,4 +19,28 @@
 }
 span{
     color:orangered;
+}
+.title-link{
+    
+    
+  
+}
+.title-link ul{
+    display: flex;
+   list-style: none;
+    color:rgb(87, 86, 86);
+      
+}
+.title-link ul li{
+      margin-left:20px;
+      margin-right:20px;
+      padding:10px 0 10px 0;
+}
+/* nav title end */
+
+
+
+
+@media srceen and (max-width:600px) {
+    
 }
