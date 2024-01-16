@@ -45,7 +45,7 @@ span{
 
 
 
-.banner-container{
+/* .banner-container{
     margin: 0 auto;
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
@@ -55,20 +55,48 @@ span{
     justify-content: center;
     align-items: center;
     margin-left: 50px;
+    padding:20px;
+}
+.banner-content{
+   padding:50px;
 }
 .banner-menu{
+
+   
+}
+.banner-title{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:var(--primary-color);
+   
+}
+.banner-descrafation{
+    color:var(--primary-color);
+    opacity: 0.7;
     
 }
 .btn-img{
-  
+  height: 15px;
 }
-  
+.input-size{
+    width:150px;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    margin-left: 15px;
+    background-color:rgb(253, 253, 253);
+}
+  #input-sicol{
+    background-color: orangered;
+  } */
 
  /* mobile screen */
 @media screen and (max-width:600px) {
-    .title-link ul{
+    .title-link ul {
         flex-direction: column;
       }
+      
     
 }
 @media screen and (min-width:600px) (max-width:992px){
