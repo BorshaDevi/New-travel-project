@@ -1,3 +1,11 @@
 .container-nav{
     
 }
+.title-img{
+    width:50px;
+    height:48px;
+    padding:10px
+}
+.title-name{
+    display:flex;
+}
