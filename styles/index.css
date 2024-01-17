@@ -164,7 +164,15 @@ span{
     justify-content: space-between;
     margin-top: 20px;
 }
-
+/* end */
+/* choose start */
+.choose-container{
+    margin-top:30px;
+   border:2px solid red;
+}
+.choose-title{
+    text-align: center;
+}
 
  /* mobile screen */
 @media screen and (max-width:600px) {
