@@ -275,27 +275,35 @@ hr{
    background-color: orangered;
    margin-bottom: 10px;
 }
-.img-up-text{
-   transform: scale(0.90) rotate(-45deg) ;
-    margin-left: 260px;
-   position: absolute;
+
+/* end */
+
+/* fpoter start */
+
+ .footer-container{
+   
     text-align: center;
-    border-radius: 10px;
-    height: 124px;
-    width:245px;
-    background-color: orangered;
-    color:var(--primary-color);
+    margin-top: 50px;
+  
+    box-shadow: 0 2px 3px 0 rgb(192, 200, 198)
 }
-.tour-title2{
-    font-size:30px;
-    
-    margin-left:25px;
-    margin-bottom: 10px;
+.footer-img{
+    width:50px;
+    height:48px;
+    padding:10px;
 }
-.img-text{
-    margin-top: 30px;
-    
+
+.footer-content{
+   margin-top: 10px;
 }
+.footer-title{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+   
+}
+
+/* end */
  /* mobile screen */
 @media screen and (max-width:600px) {
     .title-link ul, .tour-container,.row1,.row2,.row3,.video-container,.tag-img {
