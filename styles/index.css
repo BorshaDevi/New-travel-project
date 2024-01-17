@@ -190,6 +190,7 @@ span{
 }
 .tour-title1{
     font-size:25px;
+   
 }
 .choose-content3-tab{
      margin-top: 15px;
@@ -218,6 +219,23 @@ span{
    margin-right: 60px;
 }
 /* end */
+
+/* tag img start */
+.tag-img{
+  border:1px solid orangered;
+  border-radius: 10px;
+}
+.sing-up{
+
+}
+.sing-up-content{
+
+}
+.tag-input{
+    margin-top: 10px;
+    width:200px;
+    padding:10px;
+}
 
 
  /* mobile screen */
