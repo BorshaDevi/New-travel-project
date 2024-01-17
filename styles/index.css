@@ -115,7 +115,8 @@ span{
 .tour-container{
     margin-top: 20px;
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
+     gap:10px;
 }
 .tour-descrafition{
     margin-left: 20px;
@@ -150,18 +151,21 @@ span{
    
 }
 .row1{
+    gap:10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
    
 }
 .row2{
+    gap:10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
 }
 .row3{
+    gap:10px;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     margin-top: 20px;
 }
 /* end */
@@ -223,7 +227,6 @@ span{
 
 /* tag img start */
 .tag-img{
-  
   margin-top: 20px;
   display: flex;
   justify-content:center;
@@ -234,17 +237,23 @@ span{
   width:400px;
   border:1px solid orangered;
   border-radius: 15px;
-  
+  margin-left:20px;
 }
 .sign-up-content{
-
+    margin-left:20px;
 }
 .tag-input-content{
+    margin-left:20px;
     
 }
 .tag-input{
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   width: 350px;
    padding:10px;
-   
+   border:0;
+   box-shadow: 0 2px 3px 0 rgb(137, 137, 137);
 }
 .sign-up-img1{
     margin-right:20px;
