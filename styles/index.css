@@ -203,7 +203,16 @@ span{
 /* video start */
 
 .video-container{
+    display: flex;
+    justify-content: space-around;
     border:2px solid red;
+}
+.video-content{
+   margin-left: 40px;
+}
+.video{
+    width:400px;
+   margin-right: 60px;
 }
 
  /* mobile screen */
