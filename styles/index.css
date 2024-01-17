@@ -208,7 +208,8 @@ span{
 
 .video-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:10px;
     
 }
 .video-content{
@@ -222,19 +223,34 @@ span{
 
 /* tag img start */
 .tag-img{
+  
+  margin-top: 20px;
+  display: flex;
+  justify-content:center;
+  gap:40px;
+
+}
+.sign-up{
+  width:400px;
   border:1px solid orangered;
-  border-radius: 10px;
+  border-radius: 15px;
+  
 }
-.sing-up{
+.sign-up-content{
 
 }
-.sing-up-content{
-
+.tag-input-content{
+    
 }
 .tag-input{
-    margin-top: 10px;
-    width:200px;
-    padding:10px;
+   padding:10px;
+   
+}
+.sign-up-img1{
+    margin-right:20px;
+    width:500px;
+   
+   
 }
 
 
