@@ -92,6 +92,48 @@ span{
     background-color: orangered;
   } */
  
+.banner-title{
+    position: absolute;
+    text-align: center;
+    bottom:300px;
+    left: 250px;
+}
+.btn-div{
+    display:flex;
+}
+.banner-input{
+  
+   width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding:10px;
+    background-color:rgba(255, 255, 255, 0.30);           
+   
+}
+.input-size, .btn-div{
+    height:40px;
+    margin-left: 20px;
+    border:none;
+    border-radius: 8px;
+}
+.btn-div{
+
+    background-color: orangered;
+}
+#input-btn{
+
+    color:white;
+    background-color: orangered;
+}
+.btn-img{
+    height:30px;
+}
+
+
+
+
+
 
  /* mobile screen */
 @media screen and (max-width:600px) {
