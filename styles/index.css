@@ -42,56 +42,12 @@ span{
       padding:10px 0 10px 0;
 }
 /* nav title end */
-
-
-
-/* .banner-container{
-    
-    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-    background-repeat: no-repeat;
-    text-align: center;
-     height:400px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-    padding:20px;
-}
 .banner-content{
-   padding:50px;
+    margin: 0 auto;
 }
-.banner-menu{
-
+.banner-img{
    
 }
-.banner-title{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 40px;
-    color:var(--primary-color);
-   
-}
-.banner-descrafation{
-    color:var(--primary-color);
-    opacity: 0.7;
-    
-}
-.btn-img{
-  height: 15px;
- 
-}
-.input-size{
-    color:white;
-    width:150px;
-    height: 40px;
-    border-radius: 5px;
-    border:none;
-    outline: none;
-    margin-left: 15px;
-    background-color:rgb(253, 253, 253);
-}
-  #input-sicol{
-    background-color: orangered;
-  } */
- 
 .banner-title{
     position: absolute;
     text-align: center;
@@ -102,7 +58,6 @@ span{
     display:flex;
 }
 .banner-input{
-  
    width:100%;
     justify-content: center;
     align-items: center;
@@ -110,6 +65,9 @@ span{
     padding:10px;
     background-color:rgba(255, 255, 255, 0.30);           
    
+}
+.input-size{
+    outline: none;
 }
 .input-size, .btn-div{
     height:40px;
@@ -122,12 +80,26 @@ span{
     background-color: orangered;
 }
 #input-btn{
-
+    font-size: 15px;
+    margin: 0 8px 0 0;
+    padding:10px;
     color:white;
     background-color: orangered;
 }
 .btn-img{
-    height:30px;
+    margin: 0 0 0 8px;
+    padding:10px;
+    height:20px;
+}
+.ban-tit{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:var(--primary-color);
+   
+}
+.ban-des{
+    color:var(--primary-color);
+    opacity: 0.7;
 }
 
 
