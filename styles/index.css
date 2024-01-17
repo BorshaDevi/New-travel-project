@@ -168,7 +168,7 @@ span{
 /* choose start */
 .choose-container{
     margin-top:30px;
-   border:2px solid red;
+  
 }
 .choose-title{
     text-align: center;
@@ -189,6 +189,16 @@ span{
 .tour-title1{
     font-size:25px;
 }
+.choose-content3-tab{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.choose-content3{
+
+   margin-left: 50px;
+}
 
  /* mobile screen */
 @media screen and (max-width:600px) {
@@ -205,6 +215,13 @@ span{
         visibility: hidden;
       }
       
+      .choose-content{
+         flex-direction: column;
+         gap:20px;
+      }
+      .choose-content2{
+        margin-left: 45px;
+      }
       
     
 }
