@@ -80,6 +80,7 @@ span{
     padding:10px;
     color:white;
     background-color: orangered;
+    
 }
 .btn-img{
     margin: 0 0 0 8px;
@@ -99,7 +100,9 @@ span{
 /* bamner end */
 
 .tour-container{
+    margin-top: 20px;
      display: flex;
+     justify-content: space-around;
 }
 .tour-title{
   font-size: 35px;
@@ -117,11 +120,8 @@ span{
 
  /* mobile screen */
 @media screen and (max-width:600px) {
-    .title-link ul {
+    .title-link ul, .tour-container {
         flex-direction: column;
-      }
-      .banner-container ,.banner-img{
-        width:100%;
       }
       
       
