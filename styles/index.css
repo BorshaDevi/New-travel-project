@@ -174,10 +174,17 @@ span{
     text-align: center;
 }
 .choose-content{
-
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 .choose-content1{
-    border:2px solid red;
+    margin-left: 50px;
+   
+}
+.choose-content2{
+    margin-right: 50px;;
+    
 }
 .tour-title1{
     font-size:25px;
