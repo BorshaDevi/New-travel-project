@@ -126,7 +126,7 @@ span{
 .tour-img-container{
     margin: 0 auto;
     margin-top: 30px;
-       border:2px solid red;
+      
 }
 .tour-img-title{
    text-align: center;
@@ -136,19 +136,30 @@ span{
     padding:10px 0 5px 0;
 }
 .tour-imgs{
-    justify-content: space-between;
+   
 }
 .row1{
     display: flex;
     justify-content: space-between;
    
 }
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
 
  /* mobile screen */
 @media screen and (max-width:600px) {
-    .title-link ul, .tour-container {
+    .title-link ul, .tour-container,.row1,.row2,.row3 {
         flex-direction: column;
+        gap:10px;
       }
       
       
