@@ -10,6 +10,10 @@
     --second-color: rgb(87, 86, 86);
 }
 /* nav title start */
+.menubar{
+    visibility: hidden;
+    
+}
 .container-nav{
     margin:0 auto;
     width:100%;
@@ -167,6 +171,14 @@ span{
     .title-link ul, .tour-container,.row1,.row2,.row3 {
         flex-direction: column;
         gap:10px;
+      }
+      .menubar{
+        visibility: visible;
+        margin-top: 30px;
+       
+      }
+      .title-link ul{
+        visibility: hidden;
       }
       
       
