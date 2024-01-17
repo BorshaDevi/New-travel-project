@@ -91,7 +91,7 @@ span{
     padding:10px;
     color:white;
     background-color: orangered;
-    
+    border:0;
 }
 .btn-img{
     margin: 0 0 0 8px;
@@ -180,7 +180,7 @@ span{
 }
 .choose-content1{
     margin-left: 50px;
-    box-shadow: 0 2px 3px 0 rgb(234, 248, 246);
+    box-shadow: 0 2px 3px 0 rgb(192, 200, 198);
    
 }
 .choose-content2{
@@ -191,7 +191,7 @@ span{
     font-size:25px;
 }
 .choose-content3-tab{
-     
+     margin-top: 15px;
     display: flex;
     justify-content: center;
    
@@ -215,6 +215,8 @@ span{
     width:400px;
    margin-right: 60px;
 }
+/* end */
+
 
  /* mobile screen */
 @media screen and (max-width:600px) {
@@ -240,12 +242,7 @@ span{
         margin-left: 45px;
       }
       .video{
-      padding:15spx;
+      padding:20px;
       }
-     
-      
     
-}
-@media screen and (min-width:600px) (max-width:992px){
-
 }
