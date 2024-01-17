@@ -181,11 +181,12 @@ span{
 .choose-content1{
     margin-left: 50px;
     box-shadow: 0 2px 3px 0 rgb(192, 200, 198);
-   
+   border-radius: 10px;
 }
 .choose-content2{
     margin-right: 50px;;
     box-shadow: 0 2px 3px 0 rgb(174, 235, 225);
+    border-radius: 10px;
 }
 .tour-title1{
     font-size:25px;
@@ -199,6 +200,7 @@ span{
 .choose-content3{
    margin-left: 50px;
    box-shadow: 0 2px 3px 0 rgb(232, 196, 214);
+   border-radius: 10px;
 }
 /* end */
 /* video start */
