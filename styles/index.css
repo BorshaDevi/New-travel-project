@@ -276,7 +276,7 @@ hr{
    margin-bottom: 10px;
 }
 .img-up-text{
-   transform: rotate(-45deg);
+   transform: scale(0.90) rotate(-45deg) ;
     margin-left: 260px;
    position: absolute;
     text-align: center;
