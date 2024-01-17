@@ -123,6 +123,27 @@ span{
 }
 /* tour img end */
 
+.tour-img-container{
+    margin: 0 auto;
+    margin-top: 30px;
+       border:2px solid red;
+}
+.tour-img-title{
+   text-align: center;
+}
+.tour-img-des{
+    color:var(--second-color);
+    padding:10px 0 5px 0;
+}
+.tour-imgs{
+    justify-content: space-between;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
 
  /* mobile screen */
 @media screen and (max-width:600px) {
