@@ -42,12 +42,9 @@ span{
       padding:10px 0 10px 0;
 }
 /* nav title end */
-.banner-content{
-    margin: 0 auto;
-}
-.banner-img{
-   
-}
+
+
+
 .banner-title{
     position: absolute;
     text-align: center;
@@ -112,6 +109,10 @@ span{
     .title-link ul {
         flex-direction: column;
       }
+      .banner-container ,.banner-img{
+        width:100%;
+      }
+      
       
     
 }
