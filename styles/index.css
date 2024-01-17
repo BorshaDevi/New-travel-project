@@ -180,27 +180,25 @@ span{
 }
 .choose-content1{
     margin-left: 50px;
-    
+    box-shadow: 0 2px 3px 0 rgb(234, 248, 246);
    
 }
 .choose-content2{
     margin-right: 50px;;
-    
+    box-shadow: 0 2px 3px 0 rgb(174, 235, 225);
 }
 .tour-title1{
     font-size:25px;
 }
 .choose-content3-tab{
-    
      
     display: flex;
     justify-content: center;
    
 }
 .choose-content3{
-    background-color: hotpink;
-    box-shadow: 0 2px 3px 0 ;
    margin-left: 50px;
+   box-shadow: 0 2px 3px 0 rgb(232, 196, 214);
 }
 /* end */
 /* video start */
@@ -220,7 +218,7 @@ span{
 
  /* mobile screen */
 @media screen and (max-width:600px) {
-    .title-link ul, .tour-container,.row1,.row2,.row3 {
+    .title-link ul, .tour-container,.row1,.row2,.row3,.video-container {
         flex-direction: column;
         gap:10px;
       }
@@ -240,6 +238,9 @@ span{
       .choose-content2{
         
         margin-left: 45px;
+      }
+      .video{
+      padding:15spx;
       }
      
       
