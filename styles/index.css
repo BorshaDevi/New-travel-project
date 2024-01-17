@@ -173,6 +173,15 @@ span{
 .choose-title{
     text-align: center;
 }
+.choose-content{
+
+}
+.choose-content1{
+    
+}
+.tour-title1{
+    font-size:25px;
+}
 
  /* mobile screen */
 @media screen and (max-width:600px) {
