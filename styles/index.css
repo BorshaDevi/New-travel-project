@@ -276,20 +276,25 @@ hr{
    margin-bottom: 10px;
 }
 .img-up-text{
+   transform: rotate(-45deg);
+    margin-left: 260px;
+   position: absolute;
     text-align: center;
     border-radius: 10px;
     height: 124px;
-    width:342px;
+    width:245px;
     background-color: orangered;
+    color:var(--primary-color);
 }
 .tour-title2{
     font-size:30px;
-    color:var(--primary-color);
-    margin-left:40px;
+    
+    margin-left:25px;
     margin-bottom: 10px;
 }
 .img-text{
     margin-top: 30px;
+    
 }
  /* mobile screen */
 @media screen and (max-width:600px) {
@@ -321,5 +326,6 @@ hr{
         width:100%;
 
       }
+      
     
 }
