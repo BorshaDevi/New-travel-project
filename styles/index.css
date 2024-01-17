@@ -180,7 +180,7 @@ span{
 }
 .choose-content1{
     margin-left: 50px;
-    background-color: rgb(239, 223, 223);
+    
    
 }
 .choose-content2{
@@ -192,12 +192,14 @@ span{
 }
 .choose-content3-tab{
     
+     
     display: flex;
     justify-content: center;
    
 }
 .choose-content3{
-   
+    background-color: hotpink;
+    box-shadow: 0 2px 3px 0 ;
    margin-left: 50px;
 }
 /* end */
