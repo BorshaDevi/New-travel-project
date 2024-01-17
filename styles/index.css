@@ -258,14 +258,37 @@ span{
 .sign-up-img1{
     margin-right:20px;
     width:500px;
-   
-   
-}
 
+}
+hr{
+    width:350px;
+    margin-bottom: 30px;
+    opacity: 0.4;
+}
+#input-btn1{
+    color:white;
+    width: 370px;
+   padding:10px;
+   border:0;
+   background-color: orangered;
+   margin-bottom: 10px;
+}
+.img-up-text{
+    border-radius: 10px;
+    height: 124px;
+    width:342px;
+    background-color: orangered;
+}
+.tour-title2{
+    font-size:30px;
+    color:var(--primary-color);
+    
+    margin-bottom: 60px;
+}
 
  /* mobile screen */
 @media screen and (max-width:600px) {
-    .title-link ul, .tour-container,.row1,.row2,.row3,.video-container {
+    .title-link ul, .tour-container,.row1,.row2,.row3,.video-container,.tag-img {
         flex-direction: column;
         gap:10px;
       }
@@ -288,6 +311,10 @@ span{
       }
       .video{
       padding:20px;
+      }
+      .sign-up-img1{
+        width:100%;
+
       }
     
 }
