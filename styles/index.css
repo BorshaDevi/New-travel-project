@@ -99,10 +99,15 @@ span{
 }
 /* bamner end */
 
+/* tour img start */
+
 .tour-container{
     margin-top: 20px;
      display: flex;
      justify-content: space-around;
+}
+.tour-descrafition{
+    margin-left: 20px;
 }
 .tour-title{
   font-size: 35px;
@@ -113,9 +118,10 @@ span{
 .tour-img{
     width:400px;
     height:400px;
+    margin-right: 70px;
     
 }
-
+/* tour img end */
 
 
  /* mobile screen */
