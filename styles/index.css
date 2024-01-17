@@ -247,10 +247,11 @@ span{
     
 }
 .tag-input{
+    text-align: ;
     outline: none;
     border-radius: 10px;
     margin-bottom: 10px;
-   width: 350px;
+   width: 320px;
    padding:10px;
    border:0;
    box-shadow: 0 2px 3px 0 rgb(137, 137, 137);
@@ -266,14 +267,16 @@ hr{
     opacity: 0.4;
 }
 #input-btn1{
+    border-radius: 10px;
     color:white;
-    width: 370px;
+    width: 340px;
    padding:10px;
    border:0;
    background-color: orangered;
    margin-bottom: 10px;
 }
 .img-up-text{
+    text-align: center;
     border-radius: 10px;
     height: 124px;
     width:342px;
@@ -282,10 +285,12 @@ hr{
 .tour-title2{
     font-size:30px;
     color:var(--primary-color);
-    
-    margin-bottom: 60px;
+    margin-left:40px;
+    margin-bottom: 10px;
 }
-
+.img-text{
+    margin-top: 30px;
+}
  /* mobile screen */
 @media screen and (max-width:600px) {
     .title-link ul, .tour-container,.row1,.row2,.row3,.video-container,.tag-img {
